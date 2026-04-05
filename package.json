@@ -1,1 +1,1 @@
-{\n  \"name\": \"your-package-name\",\n  \"version\": \"1.0.0\",\n  \"scripts\": {\n    \"build\": \"your-build-command\"\n  },\n  \"dependencies\": {\n    // your dependencies here\n  }\n}
+{\n  "name": "your-project-name",\n  "version": "1.0.0",\n  "main": "index.js",\n  "scripts": {\n    "build": "echo 'Building...'",\n    "start": "node index.js"\n  },\n  "dependencies": {\n    "express": "^4.17.1",\n    "cors": "^2.8.5",\n    "socket.io": "^4.0.0",\n    "sqlite3": "^5.0.0",\n    "better-sqlite3": "^7.1.2"\n  }\n}
